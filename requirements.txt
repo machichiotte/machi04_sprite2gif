@@ -1,5 +1,5 @@
-pytest==7.4.3
-black==23.11.0
-flake8==6.1.0
-Pillow==10.2.0
-streamlit==1.32.0
+pytest>=8.0.0
+black>=24.0.0
+flake8>=7.0.0
+Pillow>=10.4.0
+streamlit>=1.40.0
