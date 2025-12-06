@@ -6,6 +6,10 @@
 
 > Convert sprite sheets into animated GIFs with an intuitive web interface
 
+## 📸 Screenshot
+
+![Sprite2GIF Interface](assets/demo.png)
+
 ## ✨ Features
 
 - 🖼️ **Sprite Sheet Upload** - Support for PNG sprite sheets
