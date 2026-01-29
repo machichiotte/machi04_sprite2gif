@@ -53,6 +53,18 @@ streamlit run src/app.py
 
 The app will open in your browser at `http://localhost:8501`
 
+### 🐳 Run with Docker
+
+```bash
+# Build and start the container
+docker compose up -d
+
+# View logs
+docker compose logs -f
+```
+
+The app will be available at `http://localhost:8501`
+
 ## 📖 How to Use
 
 1. **Upload** your sprite sheet (PNG format)
