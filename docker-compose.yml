@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: machi04_app:latest
+    container_name: machi04_app
+    ports:
+      - "${STREAMLIT_SERVER_PORT:-3004}:3004"
+    env_file:
+      - .env.production
+    restart: always

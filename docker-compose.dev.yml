@@ -1,0 +1,12 @@
+services:
+  app:
+    extends:
+      file: docker-compose.yml
+      service: app
+    env_file:
+      - .env.development
+    volumes:
+      - .:/app
+    # In dev we might want to run with hot reload
+    command: streamlit run src/app.py --server.port 3004 --server.address 0.0.0.0
+    restart: "no"
